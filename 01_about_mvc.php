@@ -77,6 +77,11 @@ MVC (Model-View-Controller)
  => Get Result Without Database
 ----------------------------------
  ┌──────────────┐
+ │ User Request │
+ └──────┬───────┘
+        │
+        V
+ ┌──────────────┐
  │  Controller  │
  └──────┬───────┘
         │
