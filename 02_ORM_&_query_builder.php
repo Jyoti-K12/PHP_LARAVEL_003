@@ -68,3 +68,45 @@ ORM in Laravel
     - propel
 
 */
+
+
+
+
+/**
+ * =================================================================================================================
+ * 3. What is Query Builder?
+ * =================================================================================================================
+ */
+/*
+- The Query Builder in Laravel provides a user-friendly way to create database queries without directly writing SQL code.
+- Query Builder is also part of Eloquent ORM. It is Alternative or secondary approach for write sql queries.
+- Two types of Approaches in Eloquent ORM: (1) Primary Approach called Eloquent ORM (2) Secondary Approach called Query Builder
+*/
+
+
+
+
+/**
+ * =================================================================================================================
+ * 4. What is difference between Eloquent ORM and Query Builder?
+ * =================================================================================================================
+ */
+/*
+Eloquent ORM
+---------------------
+    - Takes More Memory
+    - Takes More Time
+    - Low Performance for get large amount of data
+    - Coding Quality is Great.
+    - Easy and User-friendly.
+    - Best fit for small project.
+
+Query Builder
+---------------------
+    - Takes Less Memory.
+    - Takes Less Time.
+    - Best Suitable for Large Amount of Data.
+    - Coding Quality is not good.
+    - Complex when use joins.
+    - Best fit for large or complex project.
+*/
