@@ -67,9 +67,11 @@ ORM in Laravel
     - Spot
     - propel
 
-*/
+
 // Fetch a user with ID 1 using Eloquent ORM
 $user = User::find(1);
+*/
+
 
 
 
@@ -83,9 +85,11 @@ $user = User::find(1);
 - The Query Builder in Laravel provides a user-friendly way to create database queries without directly writing SQL code.
 - Query Builder is also part of Eloquent ORM. It is Alternative or secondary approach for write sql queries.
 - Two types of Approaches in Eloquent ORM: (1) Primary Approach called Eloquent ORM (2) Secondary Approach called Query Builder
-*/
+
 // Fetch a user with ID 1 using Query Builder
 $user = DB::table('users')->where('id', 1)->first();
+*/
+
 
 
 
